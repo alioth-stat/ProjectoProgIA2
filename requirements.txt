@@ -1,0 +1,14 @@
+# Agente IA de Programación - Dependencias
+# Instala con: pip install -r requirements.txt
+
+# --- LLM Providers (instala solo el que vayas a usar) ---
+anthropic>=0.40.0          # Para usar Claude (recomendado)
+# openai>=1.0.0            # Alternativa: GPT-4o
+
+# --- Testing y análisis estático (opcionales pero recomendados) ---
+pytest>=8.0.0
+flake8>=7.0.0
+mypy>=1.8.0
+
+# --- Sin dependencias externas adicionales ---
+# El núcleo del agente usa solo la stdlib de Python 3.10+
